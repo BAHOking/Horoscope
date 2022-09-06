@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Horoscope</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <section class="header__box container">
+        <h1 class="header__title">Новый гороскоп на 2021 год!</h1>
+        <p class="header__subtitle">Узнайте, что Вас ждёт.</p>
+      </section>
+    </header>
+
+    <main class="main container">
+      <section class="services__box">
+        <div class="img__box">
+          <div class="img__img1-box">
+            <img class="img__img1" src="images/1.png" alt="1.png" />
+          </div>
+          <img class="img__img2" src="images/2.jpg" alt="2.jpg" />
+        </div>
+        <h2 class="services__title">
+          Узнайте, как 2021 год изменит жизнь каждого из нас!
+        </h2>
+        <p class="services__text">
+          К сожалению, 2020 год принес нам немало неприятностей, даже
+          откровенных проблем и несчастий. Не смотря на это, 3 знака зодиака
+          очень скоро обретут долгожданное счастье! 2021 год затронет своими
+          потрясениями каждого из нас.
+        </p>
+      </section>
+
+      <section class="form__box">
+        <h2 class="form__title">Укажите свой пол:</h2>
+
+        <form class="form__form">
+          <div class="form__item">
+            <input
+              class="form__radio-input"
+              type="radio"
+              name="radio"
+              id="radio1"
+            />
+            <label class="form__radio-label" for="radio1">Женщина</label>
+          </div>
+          <div class="form__item">
+            <input
+              class="form__radio-input"
+              type="radio"
+              name="radio"
+              id="radio2"
+            />
+            <label class="form__radio-label" for="radio2">Mужчина</label>
+          </div>
+        </form>
+      </section>
+
+      <section class="questionnaire__box"></section>
+      <button class="button__go">Далее</button>
+
+      <section class="processing__box hide">
+        <h3 class="processing__title">Обработка Ваших данных:</h3>
+        <div class="processing__box-percent">
+          <p class="processing__percent">20%</p>
+        </div>
+        <div class="processing__box-list">
+          <ul class="processing__list">
+            <li class="processing__li">
+              Анализ введенных данных . . . . . . .
+              <span class="processing__li-span">Идёт запись!</span>
+            </li>
+            <li class="processing__li">
+              Коррекция астрологического знака . . . . . . .
+              <span class="processing__li-span">Идёт запись!</span>
+            </li>
+            <li class="processing__li">
+              Расчет вариаций ответов . . . . . . .
+              <span class="processing__li-span">Идёт запись!</span>
+            </li>
+            <li class="processing__li">
+              Генерация предсказания . . . . . . .
+              <span class="processing__li-span">Идёт запись!</span>
+            </li>
+            <li class="processing__li">
+              Сохранение результата . . . . . . .
+              <span class="processing__li-span">Идёт запись!</span>
+            </li>
+            <li class="processing__li">
+              Поиск свободного оператора . . . . . . .
+              <span class="processing__li-span">Идёт запись!</span>
+            </li>
+            <li class="processing__li">
+              Начала озвучки и записи аудио-сообщения . . . . . . .<span
+                class="processing__li-span"
+                >Идёт запись!</span
+              >
+            </li>
+          </ul>
+          <p class="processing__ready hide">Готово!</p>
+        </div>
+      </section>
+
+      <section class="final__box hide">
+        <h3 class="final__title">Спасибо за Ваши ответы!</h3>
+        <p class="final__top-text">
+          Поздравляем! Прослушать свой персональный гороскоп возможно уже
+          сейчас!
+        </p>
+        <div class="final__text-box"></div>
+          <p class="final__text">
+            <span class="final__text-span">2021 год Вас ошарашит!</span> <br />
+            Вас ждёт то, чего Вы никак не ожидали. Первые известия Вы получите
+            совсем скоро, возможно это 17-18 ноября!
+            <br />
+            <br />
+            Что бы прослушать аудио-сообщение, необходимо нажать на кнопку ниже
+            и позвонить со своего мобильного телефона. Позвоните и Прослушайте
+            очень серьезную информацию!
+          </p>
+        </div>
+        <button class="final__button">Звонить и слушать</button>
+
+        <article class="table__box hide">
+          <table class="table__table">
+            <thead>
+              <tr>
+                <th class="table__th">1</th>
+                <th class="table__th">2</th>
+              </tr>
+            </thead>
+            <tbody class="table__td"></tbody>
+          </table>
+        </article>
+
+        <footer class="final__footer">
+          TERMENI SI CONDITII: ACESTA ESTE UN SERVICIU DE
+          <br />
+          DIVERTISMENT. PRIN FOLOSIREA LUI DECLARATI CA AVETI 18
+        </footer>
+      </section>
+
+     
+    </main>
+   
+    <footer class="footer">2020 © HOROSCOP PERSONAL</footer>
+
+    <script src="js/imgRotate.js"></script>
+    <script src="js/questionnaire.js"></script>
+    <script src="js/lastPages.js"></script>
+  </body>
+</html>
