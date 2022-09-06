@@ -238,7 +238,7 @@ body {
   padding-left: 17px;
   font-size: 14px;
 
-  background: url("../images/arrow.svg") no-repeat #fff;
+  background: url(../images/arrow.svg) no-repeat #fff;
   background-position: bottom 16px right 9px;
   margin: 15px auto;
   border-color: #e4e4e4;
